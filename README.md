@@ -13,6 +13,15 @@ Windows Subsystem for Linux (WSL) is a compatibility layer for running Linux bin
 5. [WSL Networking](#wsl-networking)
 6. [WSL Environment Variables](#wsl-environment-variables)
 7. [WSL Configuration](#wsl-configuration)
+8. [Additional Command](#additional-command)
+
+1. [Basic WSL Commands](#basic-wsl-commands)
+2. [WSL 2 Commands](#wsl-2-commands)
+3. [WSL Distribution Management](#wsl-distribution-management)
+4. [WSL File System Access](#wsl-file-system-access)
+5. [WSL Networking](#wsl-networking)
+6. [WSL Environment Variables](#wsl-environment-variables)
+7. [WSL Configuration](#wsl-configuration)
 
 ## Basic WSL Commands
 
