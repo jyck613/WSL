@@ -13,26 +13,18 @@ Windows Subsystem for Linux (WSL) is a compatibility layer for running Linux bin
 5. [WSL Networking](#wsl-networking)
 6. [WSL Environment Variables](#wsl-environment-variables)
 7. [WSL Configuration](#wsl-configuration)
-8. [Additional Command](#additional-command)
-
-1. [Basic WSL Commands](#basic-wsl-commands)
-2. [WSL 2 Commands](#wsl-2-commands)
-3. [WSL Distribution Management](#wsl-distribution-management)
-4. [WSL File System Access](#wsl-file-system-access)
-5. [WSL Networking](#wsl-networking)
-6. [WSL Environment Variables](#wsl-environment-variables)
-7. [WSL Configuration](#wsl-configuration)
 
 ## Basic WSL Commands
 
-### 1. Check WSL Version
-```sh
-wsl --list --verbose
-```
 
-### 2. List Installed Distributions
+
+### 1. List or Check Existing Distributions installed on WSL
 ```sh
 wsl --list
+```
+### 2. Verbose mode with more info
+```sh
+wsl --list --verbose
 ```
 
 ### 3. Start a WSL Distribution
@@ -150,6 +142,15 @@ notepad %USERPROFILE%\.wslconfig
 ## Conclusion
 
 This guide provides a comprehensive list of essential WSL commands to help you manage and use WSL effectively. For more detailed information, refer to the official Microsoft documentation.
+
+## Additional Command
+
+To list installed packages in WSL, you can run the following command:
+
+```bash
+wsl dpkg --get-selections
+```
+wsl dpkg --get-selections
 
 ---
 
