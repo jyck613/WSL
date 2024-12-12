@@ -4,6 +4,15 @@
 
 Windows Subsystem for Linux (WSL) is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows 11. This guide provides a list of essential WSL commands to help you manage and use WSL effectively.
 
+Default Ubuntu installation comes with following tools:
+Curl
+Vim
+Tmux
+git
+openSSH
+GCC,make
+Python3.12 with virtual environment capable
+
 ## Table of Contents
 
 1. [Basic WSL Commands](#basic-wsl-commands)
@@ -43,11 +52,6 @@ wsl --unregister <DistributionName>
 ```
 
 ## WSL 2 Commands
-
-### 1. Check if WSL 2 is Installed
-```sh
-wsl --list --verbose
-```
 
 ### 2. Set WSL 2 as Default
 ```sh
@@ -150,7 +154,7 @@ To list installed packages in WSL, you can run the following command:
 ```bash
 wsl dpkg --get-selections
 ```
-wsl dpkg --get-selections
+
 
 ---
 
